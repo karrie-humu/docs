@@ -13,7 +13,7 @@ You should add a link at the top of each page that goes directly to the main con
 Typically this is done on the top of `App.vue` as it will be the first focusable element on all your pages:
 
 ```vue-html
-<ul class="skip-links">
+<ul class="skipLink">
   <li>
     <a href="#main" ref="skipLink">Skip to main content</a>
   </li>
